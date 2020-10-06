@@ -3,7 +3,6 @@ a {text-decoration: none;}
 
 #intro{
 	display: flex;
-	/* flex-direction: column; */
 	justify-content: center;
 	align-items: center;
 }
@@ -23,7 +22,7 @@ a {text-decoration: none;}
 
 #skills{
 	background-color: rgb(53 109 235);
-	padding-top: 20px;
+	padding-top: 25px;
 	padding-bottom: 20px;
 }
 
@@ -32,8 +31,7 @@ a {text-decoration: none;}
 	justify-content: center;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 50px;
-	margin-top: 25px;
+	font-size: 44px;
 	margin-bottom: 25px;
 }
 
@@ -58,9 +56,34 @@ a {text-decoration: none;}
 
 #projects{
 	text-align: center;
+	justify-content: center;
+	background-color: dimgray;
+	padding-top: 25px;
 }
 
 #projects h1{
+	color: aliceblue;
 	font-weight: bolder;
-	font-size: 100px;
+	font-size: 44px;
+}
+
+.card {
+	display: inline-flex;
+	margin-top: 25px;
+	/* margin-left: 20px; */
+}
+
+.card-body{
+	padding-bottom: 0;
+	margin-bottom: 6px;
+}
+
+.card-text {
+	margin-bottom: 6px;
+}
+
+.card img{
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
 }
