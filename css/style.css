@@ -21,3 +21,46 @@ a {text-decoration: none;}
 	background-color: rgb(22, 22, 22);
 }
 
+#skills{
+	background-color: rgb(53 109 235);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#skills h1{
+	color: aliceblue;
+	justify-content: center;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.logo-row{
+	display: inline-flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logo{
+	object-fit: contain;
+	width: 16%;
+}
+
+.logo img{
+	width: 80%;
+	height: 90%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#projects{
+	text-align: center;
+}
+
+#projects h1{
+	font-weight: bolder;
+	font-size: 100px;
+}

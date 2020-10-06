@@ -33,7 +33,7 @@ window.onload = function () {
 
   canvas = document.querySelector('canvas');
 
-  canvas.width = window.innerWidth;
+  canvas.width = document.body.clientWidth;
   canvas.height = window.innerHeight;
 
   var x = canvas.width / 2;
@@ -85,7 +85,7 @@ function drawEach(walker) {
 function draw() {
   if (resized) {
 
-    canvas.width = window.innerWidth;
+    canvas.width = document.body.clientWidth;
     canvas.height = window.innerHeight;
 
     var x = canvas.width / 2;
