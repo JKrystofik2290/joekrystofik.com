@@ -47,14 +47,7 @@ a {text-decoration: none;}
 .logo{
 	object-fit: contain;
 	width: 10vw;
-}
-
-@media only screen and (max-width: 1000px) {
-
-	.logo {
-		object-fit: contain;
-		width: 20vw;
-	}
+	padding-bottom: 20px;
 }
 
 .logo img{
@@ -77,15 +70,28 @@ a {text-decoration: none;}
 	font-size: 44px;
 }
 
+.card-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
 .card {
-	display: inline-flex;
 	margin-top: 25px;
-	/* margin-left: 20px; */
+	width: 65vw;
+	flex-direction: row;
+}
+
+.img-container {
+	max-height: 75vh;
+    width: 25vw;
 }
 
 .card-body{
 	padding-bottom: 0;
 	margin-bottom: 6px;
+	align-self: center;
 }
 
 .card-text {
@@ -96,4 +102,29 @@ a {text-decoration: none;}
 	display: inline-block;
 	height: 100%;
 	vertical-align: middle;
+}
+
+.footer {
+	background-color: dimgray;
+	height: 25px;
+}
+
+@media only screen and (max-width: 950px) {
+
+	.logo {
+		width: 20vw;
+	}
+
+	.card {
+		flex-direction: column;
+		width: 75vw;
+	}
+
+	.img-container {
+		width: auto;
+	}
+
+	.card-body {
+		align-self: center;
+	}
 }
