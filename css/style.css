@@ -35,8 +35,10 @@ a {text-decoration: none;}
 	margin-bottom: 25px;
 }
 
-.logo-row{
-	display: inline-flex;
+.logo-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -44,7 +46,15 @@ a {text-decoration: none;}
 
 .logo{
 	object-fit: contain;
-	width: 16%;
+	width: 10vw;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.logo {
+		object-fit: contain;
+		width: 20vw;
+	}
 }
 
 .logo img{
